@@ -14,3 +14,8 @@ function calculate(){
     let val=eval(text); //evaluate the expression
     input.value=val;
 }
+
+function clean(){
+
+    input.value="";
+}
